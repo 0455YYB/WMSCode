@@ -19,9 +19,9 @@ namespace OperateData
             try
             {
                 string rootPath = System.Environment.CurrentDirectory + "\\database";
-                if(File.Exists(rootPath+"\\WMS")==false)
+                if(File.Exists(rootPath+"\\WMS.sqlite")==false)
                 {
-                    SQLiteConnection.CreateFile(rootPath + "\\WMS");
+                    SQLiteConnection.CreateFile(rootPath + "\\WMS.sqlite");
                 }
             }
             catch(Exception ex)
@@ -47,6 +47,14 @@ namespace OperateData
             sqlitCom.CommandText = sqlStr;
             int result=sqlitCom.ExecuteNonQuery();
             return result;
+        }
+
+        public static SQLiteDataReader GetUserInfo(string userCode)
+        {
+            string sqlstr = "select id,name,password from employee t where t.code='" + userCode+"'";
+            sqlitCom.CommandText = sqlstr;
+            SQLiteDataReader userInfo = sqlitCom.ExecuteReader();
+            return userInfo;
         }
     }
 }
