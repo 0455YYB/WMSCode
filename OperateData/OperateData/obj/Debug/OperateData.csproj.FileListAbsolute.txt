@@ -1,0 +1,7 @@
+D:\Github\WMSCode\OperateData\OperateData\bin\Debug\OperateData.dll
+D:\Github\WMSCode\OperateData\OperateData\bin\Debug\OperateData.pdb
+D:\Github\WMSCode\OperateData\OperateData\obj\Debug\OperateData.csprojResolveAssemblyReference.cache
+D:\Github\WMSCode\OperateData\OperateData\obj\Debug\OperateData.csproj.CoreCompileInputs.cache
+D:\Github\WMSCode\OperateData\OperateData\obj\Debug\OperateData.csproj.CopyComplete
+D:\Github\WMSCode\OperateData\OperateData\obj\Debug\OperateData.dll
+D:\Github\WMSCode\OperateData\OperateData\obj\Debug\OperateData.pdb

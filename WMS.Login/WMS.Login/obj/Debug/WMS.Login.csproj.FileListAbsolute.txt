@@ -1,0 +1,10 @@
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csprojResolveAssemblyReference.cache
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.Login.resources
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.Properties.Resources.resources
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.GenerateResource.cache
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.CoreCompileInputs.cache
+D:\Github\WMSCode\WMS.Login\WMS.Login\bin\Debug\WMS.Login.exe
+D:\Github\WMSCode\WMS.Login\WMS.Login\bin\Debug\WMS.Login.pdb
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.CopyComplete
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.exe
+D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.pdb

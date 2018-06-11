@@ -1,0 +1,6 @@
+D:\Github\WMSCode\WMS.Value\WMS.Value\bin\Debug\WMS.Value.dll
+D:\Github\WMSCode\WMS.Value\WMS.Value\bin\Debug\WMS.Value.pdb
+D:\Github\WMSCode\WMS.Value\WMS.Value\obj\Debug\WMS.Value.csprojResolveAssemblyReference.cache
+D:\Github\WMSCode\WMS.Value\WMS.Value\obj\Debug\WMS.Value.csproj.CoreCompileInputs.cache
+D:\Github\WMSCode\WMS.Value\WMS.Value\obj\Debug\WMS.Value.dll
+D:\Github\WMSCode\WMS.Value\WMS.Value\obj\Debug\WMS.Value.pdb
