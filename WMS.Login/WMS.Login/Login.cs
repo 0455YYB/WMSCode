@@ -41,15 +41,28 @@ namespace WMS.Login
                 }
                 else
                 {
-                    SQLiteDataReader userInfo = OperateData.ExecutSQL.GetUserInfo(userName);
-                    if (userInfo.Read() && userInfo["password"] == password)
+                    try
                     {
-                        //主窗体跳转，并且记住密码
+                        SQLiteDataReader userInfo = OperateData.ExecutSQL.GetUserInfo(userName);
+                        if (userInfo.Read() && (string)userInfo["password"] == password)
+                        {
+                            if (this.Chb_remember.Checked)
+                            {
+                                OperateData.OperXML.UpdateUserInfo(userName, password);
+                            }
+
+                            //主窗体跳转，并且记住密码
+                        }
+                        else
+                        {
+                            MessageBox.Show("密码错误，请输入正确密码");
+                        }
                     }
-                    else
+                    catch(Exception ex)
                     {
-                        MessageBox.Show("密码错误，请输入正确密码");
+                        MessageBox.Show(ex.Message);
                     }
+                    
                 }
 
             }

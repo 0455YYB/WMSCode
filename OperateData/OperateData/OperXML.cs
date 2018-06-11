@@ -20,10 +20,14 @@ namespace OperateData
                 if (excitFile)
                 {
                     userXML.Load(System.Environment.CurrentDirectory+"\\login.xml");
-                    XmlNode root = userXML;
+                    XmlElement root = userXML.DocumentElement;
                     XmlNodeList userinfoNode = root.ChildNodes;
-                    userInfo[0] = userinfoNode[0].Attributes["value"].Value;
-                    userInfo[1] = userinfoNode[1].Attributes["value"].Value;
+                    foreach(XmlNode node in userinfoNode)
+                    {
+                        userInfo[0] =(string)node.Attributes["value"].Value;
+                        userInfo[1] =(string)node.Attributes["value"].Value;
+                    }
+                    
                     return userInfo;
                 }
                 else
@@ -51,10 +55,22 @@ namespace OperateData
                 if(excitFile)
                 {
                     userXML.Load(System.Environment.CurrentDirectory + "\\login.xml");
-                    XmlNode root = userXML.FirstChild;
-                    XmlNodeList userInfoNode = root.ChildNodes;
-                    userInfoNode[0].Attributes["value"].Value = name;
-                    userInfoNode[1].Attributes["value"].Value = password;
+                    XmlElement root = userXML.DocumentElement;
+                    XmlNodeList userInfoNode = root.GetElementsByTagName("user");
+                    foreach(XmlNode node in userInfoNode)
+                    {
+                        if(node.Name=="name")
+                        {
+                            ((XmlElement)node).SetAttribute("value", name);
+                            break;
+                        }
+                        else if(node.Name=="password")
+                        {
+                            ((XmlElement)node).SetAttribute("value",password);
+                            break;
+                        }
+                       
+                    }
                     userXML.Save("login.xml");
                 }
             }
