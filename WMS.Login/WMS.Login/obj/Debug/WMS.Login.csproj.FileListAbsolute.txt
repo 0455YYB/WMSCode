@@ -8,3 +8,12 @@ D:\Github\WMSCode\WMS.Login\WMS.Login\bin\Debug\WMS.Login.pdb
 D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.CopyComplete
 D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.exe
 D:\Github\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.pdb
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.Login.resources
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.Properties.Resources.resources
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.GenerateResource.cache
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.CoreCompileInputs.cache
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.exe
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.pdb
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\bin\Debug\WMS.Login.exe
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\bin\Debug\WMS.Login.pdb
+E:\GitHub\WMSCode\WMS.Login\WMS.Login\obj\Debug\WMS.Login.csproj.CopyComplete

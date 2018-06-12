@@ -46,10 +46,10 @@ namespace WMS.Login
                         SQLiteDataReader userInfo = OperateData.ExecutSQL.GetUserInfo(userName);
                         if (userInfo.Read() && (string)userInfo["password"] == password)
                         {
-                            if (this.Chb_remember.Checked)
-                            {
+                            //if (this.Chb_remember.Checked)
+                            //{
                                 OperateData.OperXML.UpdateUserInfo(userName, password);
-                            }
+                            //}
 
                             //主窗体跳转，并且记住密码
                         }
